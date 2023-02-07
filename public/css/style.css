@@ -325,12 +325,14 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: right;
-  background: url("../images/b4.png") no-repeat;
-  background-size: 700px;
+  background: url("../images/p3.png") no-repeat;
+  background-size: 800px;
+  margin-left: 10%;
   /* background-size: cover; */
-  background-position: right;
+  background-position: left;
 }
 
+  
 .home .content {
   margin-left: 325px;
   margin-bottom: 260px;
