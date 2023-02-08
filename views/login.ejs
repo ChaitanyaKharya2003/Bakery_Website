@@ -16,25 +16,68 @@
   <body>
     <%- include('partials/header')%>
 
-    <div style="text-align: center; color: white; margin-top: 350px;" class="reg-form searchd-form">
-      <h1>Login</h1>
+    <div
+      style="text-align: center; color: white; font-size: 20px"
+      class="reg-form searchd-form centrex"
+    >
+      <div class="imgx centrex">
+        <div class="text">Glass Effect</div>
+        <div class="text2">&copy; paras nauriyal</div>
+      </div>
+      <!-- <%- include('partials/loginForm')%> -->
+      <!-- <h1>Login</h1>
       <form action="/login" method="post">
-
         <div class="content">
-          <div class="input-field">
-            <input type="email" name="email" placeholder="Email" />
+          <div style="margin-top: 15px" class="input-field">
+            <input
+              style="background-color: var(--bg); font-size: 20px; color: white"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
           </div>
-          <div class="input-field">
-            <input type="password" name="password" placeholder="Password" />
+          <div style="margin-top: 15px" class="input-field">
+            <input
+              style="background-color: var(--bg); font-size: 20px; color: white"
+              type="password"
+              name="password"
+              placeholder="Password"
+            />
           </div>
+        </div>
+        <div style="font-size: 10px; margin-top: 10px" class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckChecked"
+            checked
+          />
+          <label class="form-check-label" for="flexCheckChecked">
+            Remember Me
+          </label>
         </div>
         <div class="action">
-          <button type="submit">Sign in</button>
+          <button
+            style="
+              border-width: 1px;
+              border-style: solid;
+              border-color: white;
+              background-color: var(--bg);
+              color: white;
+              font-size: 20px;
+              margin-top: 10px;
+              padding: 10px 20px 10px 20px;
+            "
+            type="submit"
+          >
+            Log in
+          </button>
         </div>
-        
-      </form>
-
-      <a href="/register" style="color: white; margin-top: 450px;">Already Have An Account? Login Here!</a>
+        <div style="color: white; font-size: 15px; margin-top: 10px">
+          <a href="/register">Don't Have An Account? Register Here!</a>
+        </div>
+      </form>-->
     </div>
 
     <script src="index.js"></script>

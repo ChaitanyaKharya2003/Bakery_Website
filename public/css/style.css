@@ -324,15 +324,44 @@ section {
 .register {
   min-height: 100vh;
   display: flex;
-  align-items: right;
-  background: url("../images/p3.png") no-repeat;
-  background-size: 800px;
-  margin-left: 10%;
-  /* background-size: cover; */
-  background-position: left;
+  align-items: left;
+  background: url("../images/registerbg.jpg") no-repeat;
+  /* background-size: 800px; */
+  /* margin-left: 10%; */
+  background-size: cover;
+  background-position: center;
+}
+.imgx {
+  height: 700px;
+  width: 90%;
+  background: url("../images/bg.jpg") no-repeat center;
+  background-size: cover;
+}
+.centrex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  height: 100px;
+  width: 250px;
+  padding: 30px;
+  display: inline;
+  color: white;
+  position: center;
+  /* bottom: 350px;*/
+  margin-left: 50px;
+  font-size: 3rem;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-  
+.text2 {
+  position: relative;
+  bottom: 420px;
+  left: 150px;
+  color: white;
+}
+
 .home .content {
   margin-left: 325px;
   margin-bottom: 260px;
